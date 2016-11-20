@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseMVVM.DesktopClient", "Desktop client\EnterpriseMVVM.DesktopClient\EnterpriseMVVM.DesktopClient.csproj", "{E942CDA0-9263-469B-9714-BF839557C190}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseMVVM.Windows", "Desktop client\EnterpriseMVVM.Windows\EnterpriseMVVM.Windows.csproj", "{1579EC8D-DD4C-45DA-BEC3-652D2063DA29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop Client", "Desktop Client", "{DE7DA268-0F73-4A97-B6A1-F977D82910DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{314442DE-A6BB-4E1D-8E3F-BA157CEF3297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseMVVM.DesktopClient.Tests", "..\Tests\EnterpriseMVVM.DesktopClient.Tests\EnterpriseMVVM.DesktopClient.Tests.csproj", "{4BCC764E-D3B1-4556-8050-09D0E95506B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnterpriseMVVM.Windows.Tests", "..\Tests\EnterpriseMVVM.Windows.Tests\EnterpriseMVVM.Windows.Tests.csproj", "{CEA47667-BB9C-4738-8F22-ED68D98AD4C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E942CDA0-9263-469B-9714-BF839557C190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E942CDA0-9263-469B-9714-BF839557C190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E942CDA0-9263-469B-9714-BF839557C190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E942CDA0-9263-469B-9714-BF839557C190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1579EC8D-DD4C-45DA-BEC3-652D2063DA29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1579EC8D-DD4C-45DA-BEC3-652D2063DA29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1579EC8D-DD4C-45DA-BEC3-652D2063DA29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1579EC8D-DD4C-45DA-BEC3-652D2063DA29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BCC764E-D3B1-4556-8050-09D0E95506B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BCC764E-D3B1-4556-8050-09D0E95506B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BCC764E-D3B1-4556-8050-09D0E95506B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BCC764E-D3B1-4556-8050-09D0E95506B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA47667-BB9C-4738-8F22-ED68D98AD4C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA47667-BB9C-4738-8F22-ED68D98AD4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA47667-BB9C-4738-8F22-ED68D98AD4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA47667-BB9C-4738-8F22-ED68D98AD4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E942CDA0-9263-469B-9714-BF839557C190} = {DE7DA268-0F73-4A97-B6A1-F977D82910DB}
+		{1579EC8D-DD4C-45DA-BEC3-652D2063DA29} = {DE7DA268-0F73-4A97-B6A1-F977D82910DB}
+		{4BCC764E-D3B1-4556-8050-09D0E95506B0} = {314442DE-A6BB-4E1D-8E3F-BA157CEF3297}
+		{CEA47667-BB9C-4738-8F22-ED68D98AD4C2} = {314442DE-A6BB-4E1D-8E3F-BA157CEF3297}
+	EndGlobalSection
+EndGlobal
